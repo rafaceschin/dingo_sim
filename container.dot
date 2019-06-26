@@ -1,0 +1,12 @@
+digraph G {
+FA_Prior [style=filled];
+Multiplicative;
+Additive;
+Error;
+Multi_Lamb -> Multiplicative  [arrowhead=none];
+assignment -> Multiplicative  [arrowhead=none];
+Multi_Theta -> Multiplicative  [arrowhead=none];
+assignment -> Additive  [arrowhead=none];
+Add_Tau -> Additive  [arrowhead=none];
+Add_Gamma -> Additive  [arrowhead=none];
+}
